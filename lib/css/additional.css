@@ -1,0 +1,42 @@
+.right {
+	right: 4em;
+	position: absolute;
+}
+.left {
+	left: 0em;
+	position: absolute;
+	text-align: left;
+}
+
+.credit {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.reverse section {
+	color: #fff;
+  background: #bee4fd;
+  text-shadow: none;
+}
+
+.reverse section > h1 {
+	color: white;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+.orange {
+	color: orange;
+}
+
+
+.green {
+	color: rgba(0, 158, 150, 1);
+}
+
+
+.yellow{
+	color: rgba(255, 241, 0, 1);
+
+}
