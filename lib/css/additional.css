@@ -5,7 +5,7 @@
 .left {
 	left: 0em;
 	position: absolute;
-	text-align: left;
+	text-align: left !important;
 }
 
 .credit {
@@ -27,12 +27,12 @@ ul > li {
 }
 
 .orange {
-	color: orange;
+	color: orange !important;
 }
 
 
 .green {
-	color: rgba(0, 158, 150, 1);
+	color: rgba(0, 158, 150, 1) !important;
 }
 
 
@@ -40,3 +40,130 @@ ul > li {
 	color: rgba(255, 241, 0, 1);
 
 }
+
+.photoAndText {
+
+}
+
+.photoAndText > p {
+	position: relative;
+}
+
+.photoAndText > img {
+	position: absolute !important;
+	/*margin: 5px auto;*/
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+.photoAndText2 > h1 {
+	position: relative;
+	width: 80%;
+	display: inline;
+}
+
+.photoAndText2 > img {
+	position: relative !important;
+	/*margin: 5px auto;*/
+	/*width: 100%;*/
+	display: inline;
+	width:120px;
+	top: 20px;
+	left: 0;
+	margin: 0 !important;
+	border: none !important;
+	box-shadow: none !important; 
+}
+
+
+.anywhere1 {
+	position: absolute;
+	width: 50%;
+	top: 20%;
+	left: 25%;
+	text-align: center;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	transition: all 3s ease; 
+}
+.anywhere2 {
+	position: absolute;
+	width: 80%;
+	top: 15%;
+	left: 10%;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	transition: all 3s ease; 
+}
+.anywhere3 {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	transition: all 3s ease; 
+}
+
+
+
+div .box {
+	position: absolute !important;
+	left: 16.5%;
+	top: 30%;
+	width: 121px;
+	height: 160px;
+	border: 7px solid rgba(0, 158, 150, 1);
+}
+
+
+div .box2 {
+	position: absolute !important;
+	left: 31%;
+	top: 30%;
+	width: 143px;
+	height: 160px;
+	border: 7px solid rgba(0, 158, 150, 1);
+}
+
+
+div .box3 {
+	position: absolute !important;
+	left: 47.5%;
+	top: 30%;
+	width: 111px;
+	height: 160px;
+	border: 7px solid rgba(0, 158, 150, 1);
+}
+/*.mask a{
+  position: relative;
+  display:block;
+  width: 434px;
+  height: 126px;
+  text-align:center;
+  margin: 20px auto;
+  background: ;
+  -webkit-filter: drop-shadow(1px 1px 0 rgba(0,0,0,.5));
+}
+.mask a{
+  background-position: -500px 30px;
+  
+}
+.mask a:hover,
+.mask a:focus{
+  background-position: -80px 30px;
+  transition: all ease-out 1.3s;
+}
+.mask a::after{
+  content:'';
+  position: absolute;
+  pointer-events: none;
+  top:0; left:0; right:0; bottom: 0;
+  background: radial-gradient(0 0,circle farthest-side, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background: radial-gradient(circle farthest-side at 0 0, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background-position: inherit; 
+  -webkit-mask: url('http://dev.iamvdo.me/newLogoCSS3create2.png') center;
+  mask: url('#mask-firefox');
+}*/
