@@ -47,10 +47,22 @@ ul > li {
 
 .photoAndText > p {
 	position: relative;
-	left: -105%;
 }
 
 .photoAndText > img {
+	position: absolute !important;
+	/*margin: 5px auto;*/
+	width: 100%;
+	bottom: 0;
+	right: 0;
+}
+
+.photoAndTextX > p {
+	position: relative;
+	left: -105%;
+}
+
+.photoAndTextX > img {
 	position: absolute !important;
 	/*margin: 5px auto;*/
 	width: 60%;
